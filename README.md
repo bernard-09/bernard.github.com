@@ -1,2 +1,0 @@
-Accueil.html
-Compétences.html
