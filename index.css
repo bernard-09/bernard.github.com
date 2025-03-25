@@ -329,7 +329,7 @@ footer {
     display: flex;
     margin:30px
 }
-footer a {
+footer p a {
     text-decoration: none;
     color: orange;
     font-size: 16px;
