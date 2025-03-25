@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Nom Prénom</title>
+    <link rel="stylesheet" href="index.css"> <!-- Lien vers ton fichier CSS -->
+</head>
+<body>
+    <!-- En-tête -->
+    <header>
+        <div class="logo">
+            <div>Jean Bernard  A<span style="color:orange"> UGUSMA</span></div>
+        <div>
+        <nav>
+            <ul>
+                <li><a href="#index.html"><span style="color:orange">Accueil</span></a></li>
+                <li><a href="#mwen">À propos</a></li>
+                <li><a href="#Skills">Projets</a></li>
+                <li><a href="#à-propos">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+        </div>
+        
+    </header>
+
+    <!-- Section principale -->
+    <section id="index.html" class="main-section">
+        <div class="intro-text">
+            <h2>Je suis <span style= "color:orange">Jean Bernard</span>, Développeur en devenir passionné par le web et le design !</h2>
+            <a href="Skills.html" class="btn">Voir mes projets</a>
+        </div>
+        <div class="intro-image">
+            <img src="images.png" alt="Développeur">
+        </div>
+    </section>
+    
+    <section id="mwen" class="about">
+                  
+        <div class="about-content">
+            <div class="about-text">
+                      <h1>À propos</h1> 
+                <p>Je m'appelle <strong style="color:orange;">Jean Bernard</strong>, passionné par la création de sites web modernes et interactifs.</p>
+                <p>Je suis actuellement étudiant en <strong style="color:orange;">développement web</strong>, et je cherche à améliorer mes compétences en JavaScript, HTML et CSS.</p>
+                <p>J'adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.</p>
+                <button class="cv-btn">Télécharger mon CV</button>
+            </div>
+            <div class="about-photo">
+                <img src="portfolio.png" alt="Photo de Jean Bernard" />
+            </div>
+        </div>
+    </section>
+    <section id="Skills" class="jb">
+    <h1 style="color:orange;text-align:center">Mes Projets</h1>
+
+    <div class="projects-container">
+        <div class="project-card">
+            <h3>Projet 1</h3>
+            <p>Un calculateur de prêt hypothécaire construit avec le JavaScript.</p>
+            <div class="tags">#html, #css, #js</div>
+            <a href="calculateur.html" class="btn">Voir</a>
+        </div>
+        <div class="project-card">
+            <h3>Projet 2</h3>
+            <p>Un tableaux de manipulation en JavaScript.</p>
+            <div class="tags">#html, #css, #js</div>
+            <a href="exercice4.html" class="btn">Voir</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Projet 3</h3>
+            <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+            <div class="tags">#html, #css, #js</div>
+            <a href="jeux.html" class="btn">Voir</a>
+        </div>
+    </div>
+</section>
+<section id="à-propos" class="skills-section">
+        <h2 style="text-align:center">Mes Compétences</h2>
+        
+        <div>
+        <div class="card-skills">
+          
+            <!-- Carte Soft Skills -->
+            <div>
+                <h3>Soft Skills</h3>
+                <div class="skill-item">
+                    <span>Gestion de projet</span>
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Résolution de problème</span>
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Adaptabilité</span>
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Communication</span>
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill" style="width: 90%;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carte Hard Skills -->
+            <div>
+                <h3>Hard Skills</h3>
+                <div class="skill-item">
+                    <span>HTML</span>
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>CSS</span>
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>JavaScript</span>
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>VS Code</span>
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill" style="width: 98%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+  <section id="contact" class:"bb">  
+  <div class="contact-form">
+        <h1>Vous avez un projet en tête ?<br>N'hésitez pas à me contacter</h1>
+        
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="prenom">Votre prénom</label>
+                <input type="text" id="prenom" name="prenom" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="nom">Votre nom</label>
+                <input type="text" id="nom" name="nom" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Votre email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="sujet">Votre sujet</label>
+                <input type="text" id="sujet" name="sujet" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Votre message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn" <a href="mailto:jeanbernardaugusma2000@gmail.com"></a>Envoyer</button>
+        </form>
+    </div>
+    </section>
+
+    
+    <footer>
+      <ul>
+  <li>Designed by <a href="mailto:jeanbernardaugusma2000@gmail.com/">Jean Bernard AUGUSMA</a> with HTML, CSS & JS</li>
+        <li>&copy;Tous droits réservés-2025.</li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script> <!-- Lien vers ton fichier JS -->
+  
+
+</body>
+</html>
+
+
