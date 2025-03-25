@@ -321,10 +321,11 @@ button:hover {
     background-color: #1f9ec7;
 }
 
-footer .p {
+footer .p a {
     text-align: center;
     margin-top: 30px;
     font-size: 0.8rem;
     color: #bbb;
     display: flex;
+    margin:30px
 }
